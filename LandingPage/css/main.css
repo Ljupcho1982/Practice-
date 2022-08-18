@@ -27,13 +27,13 @@ nav{
     font-size: 20px;
     text-decoration: none;
     color:black;
-    font-weight:bold;
+    
     text-transform: uppercase;
     font-family:Verdana, Geneva, Tahoma, sans-serif
 }
 
 .getNowBtn{
-
+    font-weight:bold;
     background-color: blue;
     color: white;
     padding: 10px 20px;
@@ -43,7 +43,7 @@ nav{
 
 main{
 
-    background-color: lightgray;
+    background-color: rgb(249, 249, 249);
     
 }
 
@@ -52,7 +52,7 @@ main{
     width: 50%;
     margin: 0 auto;
     text-align: center;
-    padding:20vh 0;
+    padding:10vh 0;
 }
 
 #title h1{
@@ -63,4 +63,54 @@ main{
 #title p{
 
     font-size: 1.5rem;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    padding: 50px 70px;
+}
+/*  CARD CSS*/
+.myCard {
+
+  
+    min-height: 200px;
+    width: 100%;
+}
+
+.myCard img{
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 2vh;
+
+}
+
+.myCard:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+
+}
+
+.parent .myCard span{
+
+    color: orangered;
+    line-height: 4px;
+    font-weight: 600px;
+    
+}
+
+.parent .myCard p{
+    color: black;
+    font-size: 24px;
+    margin-top: 2vh;
+    font-weight: bolder;
+    
+    
+}
+
+.parent a{
+    text-decoration: none;
 }
