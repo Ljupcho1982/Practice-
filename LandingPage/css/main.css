@@ -76,7 +76,7 @@ main{
     grid-column-gap: 15px;
     grid-row-gap: 15px;
     }
-    
+
 .myCard {
 
   
@@ -116,6 +116,8 @@ main{
 
 .parent a{
     text-decoration: none;
+
+   
 }
 
 /* footer start */
@@ -173,6 +175,88 @@ main{
     margin-bottom: 1.5vh;
     font-weight: bold;
 }
+
+/* modal start*/
+.myModal{
+    display: none;
+
+    width: 60%;
+    height: 60vh;
+    position:fixed;
+    top: 0;
+    background-color: white;
+    top: 20vh;
+    left: 20vw;
+    border-radius: 10px;
+
+}
+
+.myModal h1{
+    text-align: center;
+    margin: 0.5em 0;
+}
+
+.myModal img {
+
+    width: 100%;
+}
+
+.myModal span{
+
+    display: inline-block;
+    margin: 0.5em 10%;
+    color: orangered;
+}
+
+.myModal p{
+
+    text-align: justify;
+    width: 80%;
+    margin: 0.5em auto;
+}
+
+.myModal button{
+    display: block;
+    padding: 10px 20px;
+    width: 30%;
+    margin: 0.5em auto;
+    border-color: coral;
+
+}
+
+.myModal button:hover{
+    background-color: blue;
+    border: 0px;
+    cursor: pointer;
+    color: wheat;
+
+}
+
+.myModal .close{
+
+    position: absolute;
+    top: 5px;
+    right: -20px;
+    font-size: 22px;
+}
+
+.myModal .close:hover{
+
+    color: blue;
+    cursor: pointer;
+}
+
+.fadeBackground{
+
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: gray;
+    opacity: 60%;
+}
+/*modal end */
 
 @media only screen and (max-width: 960px) {
     .parent {
