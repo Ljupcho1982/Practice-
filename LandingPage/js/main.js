@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  $("parent").append(`<div class="myCard">
+  $(".parent").append(`<div class="myCard">
     <img src="./img/blog-1.png" alt="" width="100%" />
     <span>april 25 2022</span>
     <p>06 ways to do workout inside your home during Covid-19</p>
@@ -9,7 +9,7 @@ $(document).ready(function () {
 
   for (let i = 0; i <= 3; i++) {
     for (let j = 0; j <= 3; j++) {
-      $("parent").append(`<div class="myCard">
+      $(".parent").append(`<div class="myCard">
         <img src="./img/blog-${j}.png" alt="" width="100%" />
         <span>april 25 2022</span>
         <p>06 ways to do workout inside your home during Covid-19</p>
